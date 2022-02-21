@@ -1,13 +1,10 @@
 {
- 
-  "name": "dbconnect",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "dbconnect.js",
+  "main": "Queries.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dbconnect.js",
-    "dev": "nodemon dbconnect.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",

@@ -1,13 +1,14 @@
 const mongoose = require("mongoose");
 
-const DB = "mongodb+srv://Shubham:Shubham909@cluster0.d9wx7.mongodb.net/Todo?retryWrites=true&w=majority";
+const Database =
+  "mongodb+srv://ShubhamDev:Shubham909@cluster0.zkttc.mongodb.net/Demo?retryWrites=true&w=majority";
 
 module.exports = async () => {
-    await mongoose.connect(DB , {
-        useNewUrlParser:true,
-        useUnifiedTopology:true
-    })
+  await mongoose.connect(Database, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  });
 
-    return mongoose
-}
+  return mongoose
+};
 
