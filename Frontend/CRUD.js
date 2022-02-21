@@ -4,7 +4,7 @@ import AddUser from "./AddUser";
 import DataView from "./DataView";
 import UpdateForm from "./UpdateForm";
 import "./CRUD.css";
-import SIngleUser from "./SIngleUser";
+import SIngleUser from "./SingleUser";
 
 const CRUD = () => {
   const [list, setList] = useState([]);
